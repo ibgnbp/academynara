@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin:0; padding:0;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+.tbl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:25px;
+    min-height: 100vh;
+    background-color: #54bab9;
+}
+
+.tbl form{
+    padding:20px;
+    width:400px;
+    min-height: 300px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.tbl h2{
+    margin: 0 0 30px;
+    padding: 0;
+    text-align: center;
+    font-size: 35px;
+    color: #364f6b;
+}
+
+.tbl form .inputbox input{
+    width: 100%;
+    padding: 10px;
+}
+
+.tbl form .box input{
+    width: 100%;
+    padding: 10px;
+    
+}
+
+.tbl form .submit-btn{
+    width: 100%;
+    padding:12px;
+    font-size: 17px;
+    background: #;
+    color:black;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+  

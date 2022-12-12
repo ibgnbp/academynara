@@ -1,0 +1,263 @@
+
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Open Sans'sans-serif
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 45px;
+    font: weight 800;
+    float: left;
+    font-family: 'odin rounded';
+    color: #364f6b; 
+    font-weight: bold;
+}
+
+.menu{
+    float: right;
+}
+
+nav{
+   width: 100%;
+   margin: auto;
+   display: flex;
+   line-height: 80px;
+   position: sticky;
+   position: -webkit-sticky;
+   top: 0%;
+   background: #ffffff;
+   z-index: 1;
+   border-bottom: px solid black;
+
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a :hover{
+    text-decoration: underline;
+}   
+
+section > img{
+    width: 650px;
+    height: 450px;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.coloum{
+    margin-left: 25px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.coloum .keterangan{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic relief';
+    color: #F57328;
+    margin-bottom: 15px;
+}
+
+h1{
+    font-family: 'comic relief';
+    font-weight: 800px;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 40px;
+}
+
+.coloum .ket{
+    font-weight: bold;
+}
+
+.kolom {
+    margin-left: 25px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic relief';
+    color: #F57328;
+    margin-bottom: 15px;
+}
+
+h2{
+    font-family: 'comic relief';
+    font-weight: 800px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 40px;
+}
+
+.kolom .hastag{
+    font-weight: bold;
+    color: #F57328;
+}
+
+.kolom p{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+a.tbl-orange{
+    background: #F57328;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-orange:hover{
+    background: #54BAB9;
+}
+
+a.tbl-join{
+    background: #54BAB9;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    margin-top: 15px;
+    padding: 10px 15px 10px 15px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-join:hover{
+    background: #F57328;
+}
+
+p{
+    margin-top: 20px;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+#Contact{
+    background: #00ABB3;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section{
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3{
+    font-family: 'comic relief';
+    font-weight:bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: white;
+    width: 100%;
+    line-height: 50px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.instructor-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-instructor{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-instructor img{
+    width: 60%;
+    height: 60%;
+    border-radius: 60%;
+    -webkit-border-radius: 60%;
+    -moz-border-radius: 60%;
+    -ms-border-radius: 60%;
+    -o-border-radius: 60%;
+}
+
+h4{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Comic Relief';
+    margin-bottom: 20px;
+}
+
+.kartu-instructor p{
+    font-family: 'comic relief  ';
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+#copyright{
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer-section p{
+    color: #ffffff;
+    display: flex;
+}
